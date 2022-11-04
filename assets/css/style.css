@@ -65,10 +65,8 @@ header {
     width: 100%;
     height: 100vh;
     opacity: 0;
-    overflow-x: hidden;
+    overflow-x: hidden; /*saga ve sola surushmenin qarshisini alir*/
 }
-
-
 
 .nav-links-overlay {
     display: flex;
