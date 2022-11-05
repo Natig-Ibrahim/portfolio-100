@@ -209,3 +209,31 @@ header {
         padding: 0 20px;
     }
 }
+
+.trusted-by-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.trusted-by-section h4 {
+    text-align: center;
+    margin: 30px;
+}
+
+.companies {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+@media(max-width: 768px) and (min-width: 576px) {
+    .company:nth-child(even) {display: none;
+
+    }
+}
+
+@media(max-width: 575px) {
+    .company:not(:first-child) {
+        display: none;
+    }
+}
