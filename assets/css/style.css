@@ -237,3 +237,26 @@ header {
         display: none;
     }
 }
+
+.service-card li {
+    list-style-type: square;
+    list-style-position: inside; /*bu kod li obyektlerin verilmis elementlerle bir cercive daxilinde qeyd edir*/
+}
+
+
+/* services */
+.services h6, h2 {
+    text-align: center;
+}
+
+.services-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 70px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    width: 30%;
+    min-width: 300px;
+}
